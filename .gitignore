@@ -1,3 +1,7 @@
+# Custom
+resources/
+.vscode/settings.json
+
 # Prerequisites
 *.d
 

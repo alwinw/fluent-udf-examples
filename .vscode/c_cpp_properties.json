@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Fluent 3DDP Node",
+            "includePath": [
+                "${default}",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/client/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/cortex/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/multiport/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/multiport/mpi_wrapper/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/fluent21.1.0/tgrid/src/**",
+                "C:/Program Files/ANSYS Inc/v211/fluent/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "RP_CONFIG_3DDP_NODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
